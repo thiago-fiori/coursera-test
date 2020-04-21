@@ -2,7 +2,17 @@ body {
 	font: normal 18pt Arial;
 }
 
-h1 {
+h1.bigger {
 	color: blue;
-	font-size: 36px;
+	font-size: 108px;
+	margin-bottom: 0px;
+}
+
+h1 {
+	color: red;
+}
+
+article > p { /* article > p quer dizer que afeta apenas o filho direto*/
+	color: blue;
+	margin: auto;
 }
