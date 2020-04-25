@@ -2,8 +2,25 @@ body {
 	font: normal 18pt Arial;
 }
 
+header {
+	background: #FF00E4;
+	margin: 0px;
+	padding: 0px;
+}
+
+header > a {
+	text-decoration: none;
+	color: white;
+}
+
+header > a:hover {
+	background: black;
+	color: #FF00E4;
+	box-sizing: border-box;
+}
+
 h1.bigger {
-	color: blue;
+	color: #F3590D;
 	font-size: 108px;
 	margin-bottom: 0px;
 }
