@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+  border: 2px solid black;
+  background-color: #A6FAFB;
+  width: 90%;
+  padding: 10px;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+}
+
+#chicken {
+	background: #FFF68C;
+}
+
+#beef {
+	background: #FA5454;
+}
+
+#sushi {
+	background: #F8669A;
+}
+
+.row {
+	width: 100%;
+}
+
+.title {
+	width: 150px;
+	text-align: center;
+	display: block;
+	float: right;
+	position: relative; 
+	padding: 5px;
+	border: 2px solid black;
+	bottom: 12px;
+	left: 12px;
+	font-weight: bold;
+}
+
+/* desktop is 992px and above. */
+   
+@media (min-width: 992px){
+	.col-lg-3 {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+/* Tablet view is between 768px and 991px, inclusively. */
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-2 {
+		width: 50%;
+    	float: left;
+	}
+	.col-md-1 {
+		width: 100%;
+		float: left;
+	}
+}
+
+/* Mobile view is equal to or less than 767px. */
+
+@media (max-width: 767px){
+	.col-sm-1 {
+		width: 100%;
+		float: left;
+	}
+}
